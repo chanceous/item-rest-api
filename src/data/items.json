@@ -1,0 +1,119 @@
+[
+  {
+    "id": "MLA1400921865",
+    "title": "Varita de Sauco 100% real no fake",
+    "description": "Forjada con madera de saúco y núcleo de pelo de Thestral. Ideal si o si para duelos, dominar mortífagos o simplemente lucirte por ahi.",
+    "price": 6243,
+    "currency": "ARS",
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_791620-MLA75270891703_032024-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_833356-MLA75270891681_032024-F.webp"
+    ],
+    "condition": "new",
+    "stock": 1,
+    "seller": {
+      "id": "VOLDEMORT001",
+      "name": "Tom Riddle",
+      "reputation": 4.8,
+      "location": "Little Hangleton"
+    },
+    "paymentMethods": [
+      {
+        "id": "visa",
+        "name": "Visa",
+        "type": "credit_card"
+      },
+      {
+        "id": "mastercard",
+        "name": "Mastercard",
+        "type": "credit_card"
+      },
+      {
+        "id": "mercadopago",
+        "name": "Mercado Pago",
+        "type": "bank_transfer"
+      }
+    ],
+    "shipping": {
+      "free": true,
+      "cost": 0,
+      "estimatedDays": 2
+    },
+    "rating": 4.7,
+    "reviewsCount": 156
+  },
+  {
+    "id": "MLA32427104",
+    "title": "Samsung Galaxy A15 128 GB Negro azulado 4 GB RAM",
+    "description": "Descubrí infinitas posibilidades para tus fotos con las 3 cámaras principales de tu equipo. Poné a prueba tu creatividad y jugá con la iluminación, diferentes planos y efectos para obtener grandes resultados.",
+    "price": 299.999,
+    "currency": "ARS",
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_633374-MLA82692302836_032025-F.webp"
+    ],
+    "condition": "new",
+    "stock": 8,
+    "seller": {
+      "id": "samsung",
+      "name": "Samsung Oficial",
+      "reputation": 4.9,
+      "location": "Buenos Aires"
+    },
+    "paymentMethods": [
+      {
+        "id": "visa",
+        "name": "Visa",
+        "type": "credit_card"
+      },
+      {
+        "id": "amex",
+        "name": "American Express",
+        "type": "credit_card"
+      }
+    ],
+    "shipping": {
+      "free": false,
+      "cost": 15000,
+      "estimatedDays": 3
+    },
+    "rating": 4.9,
+    "reviewsCount": 89
+  },
+  {
+    "id": "MLA1574805028",
+    "title": "Zapatillas Para Hombre Nike Revolution 6 Next Nature",
+    "description": "Confeccionado con al menos un 20% de materiales reciclados por peso, la confección clásica encuentra un nuevo comienzo.Ahora es tu turno.Marca el ritmo al comienzo de tu experiencia de running con la sensación de suavidad del Nike Revolution 6 Next Nature.Sabemos que la comodidad es la clave de una carrera exitosa, así que nos aseguramos de que tus pasos sean amortiguados y flexibles para brindar una pisada suave.Es una evolución de un favorito, con un diseño transpirable.",
+    "price": 85.499,
+    "currency": "ARS",
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_703548-MLA74667204818_022024-F.webp"
+    ],
+    "condition": "new",
+    "stock": 0,
+    "seller": {
+      "id": "nike",
+      "name": "Nike Argentina",
+      "reputation": 4.7,
+      "location": "Palermo"
+    },
+    "paymentMethods": [
+      {
+        "id": "visa",
+        "name": "Visa",
+        "type": "credit_card"
+      },
+      {
+        "id": "mastercard",
+        "name": "Mastercard",
+        "type": "credit_card"
+      }
+    ],
+    "shipping": {
+      "free": true,
+      "cost": 0,
+      "estimatedDays": 2
+    },
+    "rating": 4.6,
+    "reviewsCount": 400
+  }
+]
