@@ -15,9 +15,9 @@ Bueno, la idea es probar sin que la configuración tarde demasiado, así que dej
 
     `http://localhost:3000`
 ## Endpoints
-* **Obtener un item:** `GET /api/v1/item/{ITEM_ID}`
-  * Item Funcional: `GET /api/v1/item/MLA1400921865`
-  * Item Sin Stock: `GET /api/v1/item/MLA1574805028`
+* **Obtener un item:** `GET /api/v1/items/{ITEM_ID}`
+  * Item Funcional: `GET /api/v1/items/MLA1400921865`
+  * Item Sin Stock: `GET /api/v1/items/MLA1574805028`
 * **Obtener todos los items:** `GET /api/v1/items`
 ## Rate Limiting
 
