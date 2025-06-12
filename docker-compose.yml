@@ -1,16 +1,25 @@
 version: '3.8'
 
 services:
-  mercadolibre-items:
-    build:
-      context: .
-      dockerfile: Dockerfile
+  mercadolibre-item-api:
     container_name: api
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
     ports:
       - "3000:3000"
-    environment:
-      - NODE_ENV=development
     volumes:
-      - .:/usr/src/app
+      - ./backend:/usr/src/app
       - /usr/src/app/node_modules
     command: npm run start:dev
+
+  frontend:
+    container_name: frontend
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "5173:80"
+    depends_on:
+      - api
+    

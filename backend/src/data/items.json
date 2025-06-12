@@ -1,0 +1,229 @@
+[
+  {
+    "id": "MLA1400921865",
+    "title": "Varita de Sauco 100% real no fake",
+    "description": "Forjada con madera de saúco y núcleo de pelo de Thestral. Ideal si o si para duelos, dominar mortífagos o simplemente lucirte por ahi.",
+    "price": 6243,
+    "currency": "ARS",
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_791620-MLA75270891703_032024-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_833356-MLA75270891681_032024-F.webp"
+    ],
+    "condition": "new",
+    "stock": 1,
+    "seller": {
+      "id": "VOLDEMORT001",
+      "name": "Tom Riddle",
+      "reputation": 4.8,
+      "location": "Little Hangleton"
+    },
+    "paymentMethods": [
+      {
+        "id": "visa",
+        "name": "Visa",
+        "type": "credit_card"
+      },
+      {
+        "id": "mastercard",
+        "name": "Mastercard",
+        "type": "credit_card"
+      },
+      {
+        "id": "mercadopago",
+        "name": "Mercado Pago",
+        "type": "bank_transfer"
+      }
+    ],
+    "shipping": {
+      "free": true,
+      "cost": 0,
+      "estimatedDays": 2
+    },
+    "rating": 4.7,
+    "reviewsCount": 156,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 5,
+        "date": "24 mar. 2025",
+        "review": "¡Excelente varita! Gané mi último duelo con facilidad.",
+        "likes": 8
+      },
+      {
+        "id": 2,
+        "rating": 5,
+        "date": "15 mar. 2025",
+        "review": "Muy poderosa, quizás demasiado. Se me escapó un Avada Kedavra sin querer.",
+        "likes": 16
+      },
+      {
+        "id": 3,
+        "rating": 4,
+        "date": "04 abr. 2025",
+        "review": "Buena calidad, aunque el núcleo de pelo de Thestral es un poco inquietante.",
+        "likes": 8
+      },
+      {
+        "id": 4,
+        "rating": 5,
+        "date": "28 mar. 2025",
+        "review": "La compré por colección, pero me dieron ganas de retar a Voldemort.",
+        "likes": 11
+      },
+      {
+        "id": 5,
+        "rating": 3,
+        "date": "02 abr. 2025",
+        "review": "Está buena, pero esperaba que hiciera magia posta.",
+        "likes": 5
+      },
+      {
+        "id": 6,
+        "rating": 5,
+        "date": "30 mar. 2025",
+        "review": "Me llegó en perfecto estado. Ideal para duelos o decoración.",
+        "likes": 7
+      },
+      {
+        "id": 7,
+        "rating": 4,
+        "date": "01 abr. 2025",
+        "review": "Muy detallada, aunque un poco liviana para mi gusto.",
+        "likes": 3
+      },
+      {
+        "id": 8,
+        "rating": 5,
+        "date": "05 abr. 2025",
+        "review": "Ahora soy el dueño de la Varita de Saúco. Nada mal.",
+        "likes": 14
+      }
+    ]
+  },
+  {
+    "id": "MLA32427104",
+    "title": "Samsung Galaxy A15 128 GB Negro azulado 4 GB RAM",
+    "description": "Descubrí infinitas posibilidades para tus fotos con las 3 cámaras principales de tu equipo. Poné a prueba tu creatividad y jugá con la iluminación, diferentes planos y efectos para obtener grandes resultados.",
+    "price": 299.999,
+    "currency": "ARS",
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_633374-MLA82692302836_032025-F.webp"
+    ],
+    "condition": "new",
+    "stock": 8,
+    "seller": {
+      "id": "samsung",
+      "name": "Samsung Oficial",
+      "reputation": 4.9,
+      "location": "Buenos Aires"
+    },
+    "paymentMethods": [
+      {
+        "id": "visa",
+        "name": "Visa",
+        "type": "credit_card"
+      },
+      {
+        "id": "amex",
+        "name": "American Express",
+        "type": "credit_card"
+      }
+    ],
+    "shipping": {
+      "free": false,
+      "cost": 15000,
+      "estimatedDays": 3
+    },
+    "rating": 4.9,
+    "reviewsCount": 89,
+    "reviews": [
+      {
+        "id": 1,
+        "rating": 5,
+        "date": "20 may. 2025",
+        "review": "Muy fluido para el uso diario. La batería dura todo el día.",
+        "likes": 12
+      },
+      {
+        "id": 2,
+        "rating": 4,
+        "date": "17 may. 2025",
+        "review": "Buena calidad de pantalla, aunque el brillo podría ser mejor.",
+        "likes": 5
+      },
+      {
+        "id": 3,
+        "rating": 5,
+        "date": "10 may. 2025",
+        "review": "Excelente por el precio. Va bien con apps y redes.",
+        "likes": 9
+      },
+      {
+        "id": 4,
+        "rating": 3,
+        "date": "07 may. 2025",
+        "review": "Esperaba más de la cámara, pero cumple.",
+        "likes": 3
+      },
+      {
+        "id": 5,
+        "rating": 4,
+        "date": "02 may. 2025",
+        "review": "Se ve lindo y anda rápido. Ideal para regalar.",
+        "likes": 6
+      },
+      {
+        "id": 6,
+        "rating": 5,
+        "date": "25 abr. 2025",
+        "review": "Liviano, elegante y muy funcional. Lo recomiendo.",
+        "likes": 10
+      },
+      {
+        "id": 7,
+        "rating": 2,
+        "date": "22 abr. 2025",
+        "review": "Se traba con algunos juegos. No es para exigentes.",
+        "likes": 4
+      }
+    ]
+  },
+  {
+    "id": "MLA1574805028",
+    "title": "Zapatillas Para Hombre Nike Revolution 6 Next Nature",
+    "description": "Confeccionado con al menos un 20% de materiales reciclados por peso, la confección clásica encuentra un nuevo comienzo.Ahora es tu turno.Marca el ritmo al comienzo de tu experiencia de running con la sensación de suavidad del Nike Revolution 6 Next Nature.Sabemos que la comodidad es la clave de una carrera exitosa, así que nos aseguramos de que tus pasos sean amortiguados y flexibles para brindar una pisada suave.Es una evolución de un favorito, con un diseño transpirable.",
+    "price": 85.499,
+    "currency": "ARS",
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_703548-MLA74667204818_022024-F.webp"
+    ],
+    "condition": "new",
+    "stock": 0,
+    "seller": {
+      "id": "nike",
+      "name": "Nike Argentina",
+      "reputation": 4.7,
+      "location": "Palermo"
+    },
+    "paymentMethods": [
+      {
+        "id": "visa",
+        "name": "Visa",
+        "type": "credit_card"
+      },
+      {
+        "id": "mastercard",
+        "name": "Mastercard",
+        "type": "credit_card"
+      }
+    ],
+    "shipping": {
+      "free": true,
+      "cost": 0,
+      "estimatedDays": 2
+    },
+    "rating": 4.6,
+    "reviewsCount": 400,
+    "reviews": []
+  }
+]
