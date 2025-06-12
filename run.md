@@ -1,65 +1,71 @@
-# Cómo probar mi código
+# 🚀 Cómo probar mi código
 
-Bueno, la idea es probar sin que la configuración tarde demasiado, así que deje todo para que simplemente usted deba:
+La idea es probar sin que la configuración tarde demasiado, así que dejé todo configurado para que simplemente debas:
 
+## 📋 Pasos para ejecutar
 
-1.  Clonar el repo.
-3.  Levantar contenedores con Docker
+1. **Clonar el repositorio**
+   ```bash
+   git clone [URL_DEL_REPO]
+   ```
 
-    ```bash
-    docker-compose up --build
-    ```
-    Nota: El `docker-compose.yml` está configurado para iniciar la aplicación en modo de dev.
+2. **Levantar contenedores con Docker**
+   ```bash
+   docker-compose up --build
+   ```
 
-4.  Una vez que el contenedor esté en funcionamiento, la API estará disponible en la siguiente URL:
+3. **Acceder a las aplicaciones**
 
-    `http://localhost:3000`
-## Endpoints
-* **Obtener un item:** `GET /api/v1/items/{ITEM_ID}`
-  * Item Funcional: `GET /api/v1/items/MLA1400921865`
-  * Item Sin Stock: `GET /api/v1/items/MLA1574805028`
-* **Obtener todos los items:** `GET /api/v1/items`
-## Rate Limiting
+   Una vez que los contenedores estén en funcionamiento, tendrás disponibles estas URLs:
+
+    - **WEB:** `http://localhost:5173`
+    - **API:** `http://localhost:3000`
+
+## 🔌 Endpoints de la API
+
+### Items
+- **Obtener un item específico:** `GET /api/v1/items/{ITEM_ID}`
+    - Item funcional: `GET /api/v1/items/MLA1400921865`
+    - Item sin stock: `GET /api/v1/items/MLA1574805028`
+
+- **Obtener todos los items:** `GET /api/v1/items`
+
+## 🤖 Inteligencia Artificial
+
+Implementé una pequeña funcionalidad con **Groq**, un LLM similar a Llama. Me creé una cuenta gratuita e ingresé intencionalmente el token en este código para que puedan probarlo. Una vez que termine el proceso, el token quedará eliminado.
+
+**💡 Cómo probar:** Haz preguntas sobre un producto y la IA te responderá.
+
+## ⚠️ Rate Limiting
 
 Es importante tener en cuenta que la API implementa un límite de peticiones para simular casos reales de demanda.
 
-* **Configuración:** Se permite un máximo de **50 peticiones por minuto** por cada dirección IP.
+- **Configuración:** Se permite un máximo de **50 peticiones por minuto** por cada dirección IP
+- Si se excede este límite, la API responderá con un código de estado `429 Too Many Requests` y un mensaje de error indicando que se ha superado el límite de solicitudes
 
-* Si se excede este límite, la API responderá con un código de estado `429 Too Many Requests` y un mensaje de error indicando que se ha superado el límite de solicitudes.
+## 🚨 Manejo de Excepciones
 
-## Excepciones
+Para este caso, manejo solamente dos casos para posibles problemas:
 
-Para este caso, maneje solamente dos casos, para posibles problemas:
+- **Producto sin stock:** Cuando el stock es 0, se lanza una `ItemOutOfStockException`
+- **Rate limit:** Además del código de estado `429 Too Many Requests`, se maneja la excepción `RateLimitException`
 
-* **Producto sin stock:** Cuando el stock es 0 simplemente lanzamos una `ItemOutOfStockException`.
-* **Rate limit:** Además del código de estado `429 Too Many Requests` se handleara la excepción `RateLimitException`.
+## 🧪 Testing
 
-
-## Unit testing
-
-Ejecuta el siguiente comando para correr las pruebas unitarias:
-
+### Ejecutar pruebas unitarias
 ```bash
-docker-compose exec mercadolibre-items npm run test
+npm run test
 ```
 
-## E2E testing
-
-Ejecuta el siguiente comando para correr los tests End-to-End:
-
+### Generar reporte de cobertura
 ```bash
-docker-compose exec mercadolibre-items npm run test:e2e
+npm run test:cov
 ```
 
-## Coverage
+## 📊 Cobertura de Código
 
-Ejecuta el siguiente comando para obtener los resultados del coverage:
+Al momento de subir esto tengo **86.52%** de cobertura:
 
-```bash
-docker-compose exec mercadolibre-items npm run test:cov
-```
-
-Al momento de subir esto tengo 86,52%:
 ```
 ---------------------------------------|---------|----------|---------|---------|-------------------
 File                                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
