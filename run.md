@@ -6,7 +6,7 @@ La idea es probar sin que la configuración tarde demasiado, así que dejé todo
 
 1. **Clonar el repositorio**
    ```bash
-   git clone [URL_DEL_REPO]
+   git clone https://github.com/chanceous/item-rest-api.git
    ```
 
 2. **Levantar contenedores con Docker**
