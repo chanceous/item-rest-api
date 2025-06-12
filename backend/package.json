@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "dist/main.js",
   "scripts": {
-    "build:nest": "nest build",
+    "build:nest": "nest build && mkdir -p dist/data && cp src/data/items.json dist/data/items.json",
     "build": "npm run build:nest",
     "start": "nest start",
     "start:dev": "nest start --watch",
